@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Coast-to-Coast USA | Xplore Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">XPLORE<span>.</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html" class="active">Roadtrip USA</a></li>
+                    <li><a href="produkt-2.html">Volontär Bali</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="product-hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;">
+        <div class="container">
+            <h1 style="color: white; font-size: 38px; text-transform: uppercase;">The Ultimate Coast-to-Coast USA</h1>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="product-grid">
+            <div class="product-main">
+                <div class="product-desc">
+                    <h2>Om resan</h2>
+                    <p>Drömmer du om öppna landsvägar, neonljus och storslagen natur? Vår Coast-to-Coast roadtrip tar dig från New Yorks skyskrapor till stränderna i Los Angeles. Detta är den ultimata äventyrsresan för dig som vill maximera din upplevelse i USA.</p>
+                    <p><strong>Längd:</strong> 21 dagar<br><strong>Åldersgräns:</strong> 18-26 år<br><strong>Inkluderat:</strong> Hyrbil, boende, färdplan och utvalda aktiviteter.</p>
+                </div>
+            </div>
+            
+            <div class="product-sidebar">
+                <div class="form-container">
+                    <h3>Få en gratis offert</h3>
+                    <p style="font-size: 14px; margin-bottom: 20px; color: #666;">Fyll i formuläret för att starta din anpassade reseplanering. (Kopplas enkelt till HubSpot eller Mailchimp senare).</p>
+                    
+                    <!-- Formulär för analys och konverteringsmätning -->
+                    <form action="thank-you.html" method="GET" id="usa-product-form">
+                        <!-- Dolda fält för UTM-spårning kan läggas till här av studenten -->
+                        <div class="form-group">
+                            <label for="name">Namn</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="Ditt fullständiga namn">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-post</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="namn@företag.se">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Planerad avresa</label>
+                            <input type="month" id="date" name="departure_month" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Skicka förfrågan (Mät KPI)</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Xplore Travel AB. Kursmaterial för Analys och effektmätning. <a href="kontakt.html">Kontakta oss</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

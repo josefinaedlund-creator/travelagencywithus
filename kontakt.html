@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta oss | Xplore Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">XPLORE<span>.</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Roadtrip USA</a></li>
+                    <li><a href="produkt-2.html">Volontär Bali</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">Frågor? Prata med en resexpert</h1>
+        
+        <div class="product-grid">
+            <div class="product-main">
+                <p style="margin-bottom: 20px;">Vi hjälper dig att designa din drömresa. Oavsett om det handlar om budgetering, flygrutter eller visumregler, finns vårt team här för att vägleda dig.</p>
+                <p><strong>Adress:</strong> Sveavägen 45, 111 34 Stockholm</p>
+                <p><strong>Telefon:</strong> 08-123 45 67</p>
+                <br>
+                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="Office and Travel Advisors" style="max-width: 100%; height: auto; border-radius: 6px;">
+            </div>
+
+            <div class="product-sidebar">
+                <div class="form-container">
+                    <h3>Skicka ett meddelande</h3>
+                    <form action="thank-you.html" method="GET" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Namn</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="Ditt namn">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-post</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="namn@epost.se">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Meddelande</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required placeholder="Hur kan vi hjälpa dig med din nästa resa?"></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Skicka meddelande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Xplore Travel AB. Kursmaterial för Analys och effektmätning. <a href="kontakt.html">Kontakta oss</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

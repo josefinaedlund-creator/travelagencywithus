@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volontärarbete & Kultur på Bali | Xplore Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">XPLORE<span>.</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Roadtrip USA</a></li>
+                    <li><a href="produkt-2.html" class="active">Volontär Bali</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="product-hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;">
+        <div class="container">
+            <h1 style="color: white; font-size: 38px; text-transform: uppercase;">Volontärarbete & Kultur på Bali</h1>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="product-grid">
+            <div class="product-main">
+                <div class="product-desc">
+                    <h2>Om projektet</h2>
+                    <p>Upplev Bali bortom turismen. Genom våra volontärresor får du chansen att bidra till lokalsamhället, undervisa engelska eller arbeta med marina miljöprojekt i Ubud eller på Nusa Penida.</p>
+                    <p><strong>Längd:</strong> 2-8 veckor<br><strong>Minsta ålder:</strong> 18 år<br><strong>Inkluderat:</strong> Volontärplacering, boende (guesthouse), måltider och lokal handledning.</p>
+                </div>
+            </div>
+            
+            <div class="product-sidebar">
+                <div class="form-container">
+                    <h3>Ansök eller få info</h3>
+                    <p style="font-size: 14px; margin-bottom: 20px; color: #666;">Registrera ditt intresse här för att starta din ansökningsprocess och ladda ner infopaket.</p>
+                    
+                    <!-- Formulär för analys och konverteringsmätning -->
+                    <form action="thank-you.html" method="GET" id="bali-product-form">
+                        <div class="form-group">
+                            <label for="name">Namn</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="Ditt fullständiga namn">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-post</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="din.epost@domän.se">
+                        </div>
+                        <div class="form-group">
+                            <label for="duration">Önskad varaktighet</label>
+                            <select id="duration" name="duration" class="form-control">
+                                <option value="2-weeks">2 Veckor</option>
+                                <option value="4-weeks">4 Veckor</option>
+                                <option value="8-weeks">8 Veckor</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Ladda ner broschyr (Konvertering)</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Xplore Travel AB. Kursmaterial för Analys och effektmätning. <a href="kontakt.html">Kontakta oss</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

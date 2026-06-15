@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gå med i vårt nyhetsbrev | Xplore Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">XPLORE<span>.</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Roadtrip USA</a></li>
+                    <li><a href="produkt-2.html">Volontär Bali</a></li>
+                    <li><a href="nyhetsbrev.html" class="active">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="text-center" style="margin-bottom: 40px;">
+            <h1 class="section-title">Få exklusiva resetips & sista-minuten-deals</h1>
+            <p>Missa inte chansen att upptäcka gömda pärlor och få rabatter direkt i din inkorg. Perfekt för e-postinsamling (Mailchimp/HubSpot-test).</p>
+        </div>
+
+        <div class="form-container">
+            <!-- Mailchimp / HubSpot förberett formulär -->
+            <form action="thank-you.html" method="GET" id="newsletter-form">
+                <div class="form-group">
+                    <label for="email">E-postadress</label>
+                    <input type="email" id="email" name="email" class="form-control" required placeholder="ange.din@epost.se">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" required checked style="margin-right: 5px;"> Jag godkänner att Xplore Travel hanterar min data enligt integritetspolicyn.
+                    </label>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Prenumerera nu</button>
+            </form>
+        </div>
+
+        <div class="text-center" style="margin-top: 40px;">
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=600&q=80" alt="Travel Planning" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Xplore Travel AB. Kursmaterial för Analys och effektmätning. <a href="kontakt.html">Kontakta oss</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
